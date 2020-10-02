@@ -1,0 +1,6 @@
+
+- hosts: myhosts
+  become: false
+  gather_facts: false
+  tasks:
+    - shell: hostname
